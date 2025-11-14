@@ -100,6 +100,21 @@ section h3 {
   color: #444;
 }
 
+.participants-list li button.delete-participant {
+  background: none;
+  border: none;
+  color: #c62828;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 0.85em;
+  padding: 0 6px;
+  float: right;
+}
+
+.participants-list li button.delete-participant:hover {
+  color: #ff1744;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
